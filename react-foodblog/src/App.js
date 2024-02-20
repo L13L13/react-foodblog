@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Zutatenliste from "./Zutatencheck/Zutatenliste";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className ="max-w-xl m-auto bg-organge-100 mt-20">
+      <Zutatenliste />
+      <h1>hallo</h1>
     </div>
   );
 }
